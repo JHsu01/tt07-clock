@@ -575,7 +575,7 @@ logic [6:0] FpgaPins_Fpga_CLOCK_TIME_showbits_a0;
                // Connect Tiny Tapeout outputs. Note that uio_ outputs are not available in the Tiny-Tapeout-3-based FPGA boards.
                //*uo_out = 8'b0;
                //*uio_out = 8'b0;
-               assign uio_out[4:7] = 4'b0;
+            assign uio_out[7:4] = 4'b0;
                assign uio_oe = 8'b0;
             //_\end_source
    
